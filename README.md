@@ -1,8 +1,8 @@
-# newsness
+# Newsness - Hardware News
 
-> A Vue.js project
+> A News Site by C.Hohn, R.Abdulbari, P.Auffermann, L.Haeussler
 
-## Build Setup
+## Build Setup (- Use on a webserver)
 
 ``` bash
 # install dependencies
