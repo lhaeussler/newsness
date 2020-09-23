@@ -1,6 +1,6 @@
 # newsness
-# Authors: C.Hohn, R.Abdulbari, p.Auffermann, L.Haeussler
+## Authors: C.Hohn, R.Abdulbari, p.Auffermann, L.Haeussler
 
-# news site about hardware on buisness or private pc's
+## news site about hardware on buisness or private pc's
 
-# 23.09.2020 - Vue Webpack initiated
+## 23.09.2020 - Vue Webpack initiated
