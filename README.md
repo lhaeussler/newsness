@@ -1,5 +1,5 @@
 # newsness
-## Authors: C.Hohn, R.Abdulbari, p.Auffermann, L.Haeussler
+## Authors: C.Hohn, R.Abdulbari, P.Auffermann, L.Haeussler
 
 ## news site about hardware on buisness or private pc's
 
