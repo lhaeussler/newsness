@@ -31,7 +31,7 @@
           <b-nav-item-dropdown right>
             <!-- Using 'button-content' slot -->
             <template v-slot:button-content>
-              <em>{{user}}</em>
+              <em>{{users}}</em>
             </template>
             <b-dropdown-item href="#">Profile</b-dropdown-item>
             <b-dropdown-item href="#">Sign Out</b-dropdown-item>
@@ -47,7 +47,7 @@
         name: "menu",
         data() {
           return{
-            user: 'User345279'
+            users: 'User345279'
           }
         }
     }
