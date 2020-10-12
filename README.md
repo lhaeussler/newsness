@@ -22,7 +22,7 @@ $ sudo apt update
 $ sudo apt install npm
 
 # install vue Framework
-$ npm install -g vue-cli
+$ sudo npm install -g vue-cli
 
 # Creating a Vue Project
 $ vue init webpack (beispielname)
