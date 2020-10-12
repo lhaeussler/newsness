@@ -18,9 +18,8 @@ Mit dem Befehl ls können alle verfügbaren speicherorte abgerufen werden.
 
 ``` bash
 #install npm
-$ curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -
-$ sudo apt-get install -y nodejs
-$ sudo apt-get install -y npm
+$ sudo apt update
+$ sudo apt install npm
 
 # install vue Framework
 $ npm install -g vue-cli
