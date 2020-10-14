@@ -56,5 +56,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+```
 
 For a detailed explanation on how things work, check out the [guide](https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2).
+For futher instuctions into Bootstrap use: ttps://bootstrap-vue.org/docs
