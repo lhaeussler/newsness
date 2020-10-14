@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
-import router from './router'
+import router from './router';
+import '@/assets/css/style.css';
 
 Vue.config.productionTip = false
 import 'bootstrap/dist/css/bootstrap.css';
