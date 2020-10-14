@@ -31,12 +31,30 @@ $ vue init webpack (beispielname)
 $ cd (beispielname)
 
 # install dependencies
-npm install
+$ sudo npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+$ npm run dev
 
 You can now access the Baisc webpage on localhost:8080 in your Webrowser
 ```
+## Installing Bootstrap 
 
+```bash
+# navigate to your Project folder ($ cd {beispielname})
+
+# installing Bootstrap
+$ sudo npm install vue bootstrap-vue bootstrap
+
+# Register the programm in your App.vue file
+
+```cssimport Vue from 'vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+```
+```
 For a detailed explanation on how things work, check out the [guide](https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2).
