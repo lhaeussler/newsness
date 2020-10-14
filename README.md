@@ -45,7 +45,7 @@ You can now access the Baisc webpage on localhost:8080 in your Webrowser
 
 # installing Bootstrap
 $ sudo npm install vue bootstrap-vue bootstrap
-
+```
 # Register the programm in your App.vue file
 ```css
 import Vue from 'vue'
