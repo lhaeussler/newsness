@@ -62,29 +62,43 @@
                 text: 'Neuestes',
                 href: '#'
               },
-            ]
+            ],
           }
-        }, 
-      computed:{
-        backgroundChange(){
-        }
-      }  
+        },
+      // computed:{
+      //   headerChange: function() {
+      //     var images = [
+      //       "url(../assets/img/farm-2852024.jpg)",
+      //       "url(../assets/img/motherboard-232515.jpg)",
+      //       "url(../assets/img/nvidia-5264921.jpg)"
+      //     ]
+      //     console.log(images)
+      //     var imageHead = document.getElementById("menuHeader");
+      //     var i = 0;
+      //       setInterval(function() {
+      //             imageHead.style.backgroundImage = "url(" + images[i] + "), linear-gradient(230deg, #ffffff, rgb(46, 119, 254)";
+      //             i = i + 1;
+      //             if (i == images.length) {
+      //               i =  0;
+      //             }
+      //       }, 
+      //     10000
+      //     );
+      //   }
+      // }
     }
 </script>
 
 <style>
   #menuHeader{
-    background-image: url("../assets/img/farm-2852024.jpg"), linear-gradient(230deg, #ffffff, rgb(46, 119, 254) );
     background-attachment: fixed;
     background-blend-mode: luminosity;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vw 30vh;
+    background-size: cover;
+    height: 30vh;
     padding-top: 5vh;
   }
-    b-nav-item:hover{
-      border-bottom: medium solid white;
-    }
   #logoImage{
     height: 3vw;
     border-radius: 80%;
@@ -93,10 +107,6 @@
   @media screen and (min-width: 1000px){
     #sideStripe{
       border-left: medium solid white;
-    }
-    b-nav-form{
-      align-items: center;
-      -webkit-align-items: center;
     }
   }
   #colorLightBlue{
