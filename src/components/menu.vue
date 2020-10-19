@@ -1,6 +1,6 @@
 <template>
-  <div id="menuHeader">
-    <b-navbar toggleable="lg" type="dark" variant="info">
+  <div id="menuHeader"> 
+    <b-navbar toggleable="lg" type="dark" variant="primary">
       <b-navbar-brand href="#">
         <img id="logoImage" src="../assets/img/zeitung-clipart.png">
         Newsness
@@ -64,19 +64,22 @@
               },
             ]
           }
+        }, 
+      computed:{
+        backgroundChange(){
         }
+      }  
     }
 </script>
 
 <style>
   #menuHeader{
-    background-image: url("../assets/img/farm-2852024.jpg"), linear-gradient(230deg, #ffffff, #2EFEF7 );
+    background-image: url("../assets/img/farm-2852024.jpg"), linear-gradient(230deg, #ffffff, rgb(46, 119, 254) );
     background-attachment: fixed;
     background-blend-mode: luminosity;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
+    background-size: 100vw 30vh;
     padding-top: 5vh;
   }
     b-nav-item:hover{
@@ -97,7 +100,7 @@
     }
   }
   #colorLightBlue{
-    background-color: skyblue;
+    background-color: rgb(135, 162, 235);
     border-radius: 0;
   }
 </style>
