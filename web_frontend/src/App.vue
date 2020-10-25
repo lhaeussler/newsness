@@ -3,7 +3,7 @@
     <div id="app">
       <menu></menu>
         <page></page>
-          <socials></socials>
+          <socials id="socials"></socials>
       <footer></footer>
       <router-view></router-view>
     </div>
@@ -34,5 +34,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#socials {
+  position: absolute;
 }
 </style>
