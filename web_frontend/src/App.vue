@@ -2,8 +2,7 @@
   <b-skeleton-wrapper :loading="loading">
     <div id="app">
       <menu></menu>
-        <page></page>
-          <socials id="socials"></socials>
+        <socials id="socials"></socials>
       <footer></footer>
       <router-view></router-view>
     </div>
@@ -13,7 +12,6 @@
 <script>
 import Menu from "./components/menu";
 import Socials from  "./components/socials";
-import Page from  "./components/page";
 import Footer from "./components/footer";
 
 export default {
@@ -21,7 +19,6 @@ export default {
   components: {
     Menu,
     Socials,
-    Page,
     Footer
   }
 }
@@ -34,6 +31,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+menu{
+  position: sticky;
+  top: 0;
 }
 #socials {
   position: absolute;

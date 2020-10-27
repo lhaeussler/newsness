@@ -1,5 +1,5 @@
 <template>
-  <div id="menuHeader"> 
+  <div id="menuHeader">
     <b-navbar toggleable="lg" type="dark" variant="primary">
       <b-navbar-brand href="#">
         <img id="logoImage" src="../assets/img/zeitung-clipart.png">
@@ -8,10 +8,18 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#" id="sideStripe">Artikel</b-nav-item>
-          <b-nav-item href="#" id="sideStripe">Top Angebote</b-nav-item>
-          <b-nav-item href="#" id="sideStripe">Über uns</b-nav-item>
-          <b-nav-item href="#" id="sideStripe" disabled>Forum</b-nav-item>
+          <b-nav-item id="sideStripe">
+            <router-link></router-link>Artikel
+          </b-nav-item>
+          <b-nav-item id="sideStripe">
+            <router-link></router-link>Top Deals
+          </b-nav-item>
+          <b-nav-item id="sideStripe">
+            <router-link></router-link>About
+          </b-nav-item>
+          <b-nav-item id="sideStripe" disabled>
+            <router-link></router-link>Forum
+          </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
 <!--          <b-nav-form>-->
@@ -72,7 +80,7 @@
       //             if (i == images.length) {
       //               i =  0;
       //             }
-      //       }, 
+      //       },
       //     10000
       //     );
       //   }

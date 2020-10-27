@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import menu from "../components/menu";
-import page from "../components/page"
-import socials from "../components/socials"
+import socials from "../components/socials";
 import footer from "../components/footer"
 
 Vue.use(Router)
@@ -13,11 +12,6 @@ export default new Router({
       path: '/',
       name: 'menu',
       component: menu
-    },
-    {
-      path: '/',
-      name: 'page',
-      component: page
     },
     {
       path: '/',
