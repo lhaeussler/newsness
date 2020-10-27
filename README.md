@@ -56,7 +56,7 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 ```
-##Setting up Subpages
+## Setting up Subpages
 ```bash
 https://stackoverflow.com/questions/54923395/set-up-router-for-subpages-in-vue-js
 ```
