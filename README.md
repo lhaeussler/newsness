@@ -58,8 +58,8 @@ Vue.use(IconsPlugin)
 ```
 ## Setting up Subpages
 ```bash
-https://stackoverflow.com/questions/54923395/set-up-router-for-subpages-in-vue-js
+Check out the router page integration [here](https://stackoverflow.com/questions/54923395/set-up-router-for-subpages-in-vue-js)!
 ```
 
 For a detailed explanation on how things work, check out the [guide](https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2).
-For futher instuctions into Bootstrap use: ttps://bootstrap-vue.org/docs
+For futher instuctions into Bootstrap use: https://bootstrap-vue.org/docs
