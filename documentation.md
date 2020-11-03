@@ -12,10 +12,10 @@
 ## Webpage
  - [x] Navbar (Leonardo)
    - Sprachwecheseinbindung
- - [] Login/Register (Raef)
- - [] Sideupdates (Leonardo)
- - [] Main Content Design
+ - [ ] Login/Register (Raef)
+ - [ ] Sideupdates (Leonardo)
+ - [ ] Main Content Design
  - [x] Socials (Leonardo)
- - [] Footer
+ - [ ] Footer
  
 ## Wordpress Webpage
