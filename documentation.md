@@ -11,11 +11,14 @@
 
 ## Webpage
  - [x] Navbar (Leonardo)
-   - Sprachwecheseinbindung
+   - Sprachwecheleinbindung
+   - Login Interface
+   - Breadcrumb
  - [ ] Login/Register (Raef)
  - [ ] Sideupdates (Leonardo)
  - [ ] Main Content Design
  - [x] Socials (Leonardo)
+   - Social media progress Page
  - [ ] Footer
  
 ## Wordpress Webpage
