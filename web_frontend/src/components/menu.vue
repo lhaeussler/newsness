@@ -32,7 +32,11 @@
             <b-dropdown-item href="#">RU</b-dropdown-item>
             <b-dropdown-item href="#">FA</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item-dropdown right>
+          <b-nav-item v-if="!loggedIn" onclick="loginFucntion" right>
+            <router-link></router-link>Login
+          </b-nav-item>
+
+          <b-nav-item-dropdown v-else="" right>
             <template v-slot:button-content>
               <em>{{users}}</em>
             </template>
@@ -51,6 +55,7 @@
         name: "menu",
         data() {
           return {
+            loggedIn: fasle,
             users: 'User 2147345',
             items: [
               {
@@ -62,6 +67,11 @@
                 href: '#'
               },
             ],
+          }
+        },
+        methods: {
+          loginFunction (){
+            this.loggedIn = true
           }
         },
       // computed:{
