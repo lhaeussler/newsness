@@ -21,5 +21,6 @@
    - Social media progress Page
  - [ ] Footer
  
-## Wordpress Webpage
- ->ccdsc
+## Wordpress Webpage (Christian)
+ -> Ich habe mich für eine WordPress Website entschieden da dabei vieles erleichtert wird, solche dinge wie die Datenbank anbindung oder Bots sind bei WordPress super einfach.
+ -> http://chris-bti.ddns.net/
