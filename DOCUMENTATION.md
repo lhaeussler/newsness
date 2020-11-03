@@ -8,7 +8,10 @@
 - [x] Wireframes 
 - [ ] Sitemap
 - [ ] Datenbankprofil
+
 #### Zielgruppen Bestimmung
+- Wir versuchen mit der Website Hauptsächlich Männliche Personen zwischen 17 und 60 Jahren anzusprechen
+
 #### Persona
 #### Sitemap
 
