@@ -4,6 +4,7 @@
 
 - Schreiben der Blogartikel 
 - Erstellung eines Nutzerprofils (Zeilgruppenbestimmung)
+- Persona
 - Wireframes 
 - Sitemap
 - Datenbankprofil
