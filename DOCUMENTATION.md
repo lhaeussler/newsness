@@ -10,6 +10,7 @@
 - [ ] Datenbankprofil
 
 #### Zielgruppen Bestimmung
+
  	 > Eine genaue Zeilgruppe bzw. Alatersgruppe lässt sich für unsere Website leider nicht finden. Da wir der Meinung sind, dass Technik interessierte sich in allen Altergruppen für die gestellten Themen intressieren können.
 #### Persona
 #### Sitemap
