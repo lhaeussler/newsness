@@ -8,6 +8,9 @@
 - [x] Wireframes 
 - [ ] Sitemap
 - [ ] Datenbankprofil
+#### Zielgruppen Bestimmung
+#### Persona
+#### Sitemap
 
 ## Webpage
  - [x] Navbar (Leonardo)
@@ -15,6 +18,7 @@
    - Login Interface
    - Breadcrumb
  - [ ] Login/Register (Raef)
+ - [ ] Datenbank anbindung (Christian)
  - [ ] Sideupdates (Leonardo)
  - [ ] Main Content Design
  - [x] Socials (Leonardo)
@@ -23,5 +27,5 @@
  
 ## Wordpress Webpage (Christian)
  - Ich habe mich für eine WordPress Website entschieden da dabei vieles erleichtert wird, solche dinge wie die Datenbank anbindung oder Bots sind bei WordPress super einfach.
- - http://chris-bti.ddns.net/ (Hier ist die WordPress Website verlinkt)
- - d
+ - http://chris-bti.ddns.net/ (Hier ist die WordPress Website verlinkt).
+ - Die Website wurde von Bots mit Daten über PC Hardware gefüllt, ein weiteres Feature was durch WordPress ermöglicht wurde. (Wir überlegen ob wir die Daten der WordPress seite auf die andere Website übernehmen)
