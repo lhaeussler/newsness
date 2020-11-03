@@ -4,5 +4,5 @@
  - Sideupdates (Leonardo)
  - Main Content Design
  - Socials (Leonardo)
- - footer
+ - Footer
 ## Wordpress Webpage
