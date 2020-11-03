@@ -15,6 +15,7 @@
    - Login Interface
    - Breadcrumb
  - [ ] Login/Register (Raef)
+ - [ ] Datenbank anbindung (Christian)
  - [ ] Sideupdates (Leonardo)
  - [ ] Main Content Design
  - [x] Socials (Leonardo)
