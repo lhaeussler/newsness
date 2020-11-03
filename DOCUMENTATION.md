@@ -10,8 +10,7 @@
 - [ ] Datenbankprofil
 
 #### Zielgruppen Bestimmung
-- Wir versuchen mit der Website Hauptsächlich Männliche Personen zwischen 17 und 60 Jahren anzusprechen
-
+ 	 > Eine genaue Zeilgruppe bzw. Alatersgruppe lässt sich für unsere Website leider nicht finden. Da wir der Meinung sind, dass Technik interessierte sich in allen Altergruppen für die gestellten Themen intressieren können.
 #### Persona
 #### Sitemap
 
