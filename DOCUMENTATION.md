@@ -24,7 +24,7 @@
 
 ## Webpage Frontend
  - [x] Navbar (Leonardo)
-   - Sprachwecheleinbindung
+   - Sprachwechseleinbindung
    - Login Interface
    - Breadcrumb
  - [ ] Login/Register (Raef)
