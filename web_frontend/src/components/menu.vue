@@ -8,17 +8,13 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item id="sideStripe">
-            <router-link></router-link>Artikel
+          <b-nav-item class="sideStripe">Artikel
           </b-nav-item>
-          <b-nav-item id="sideStripe">
-            <router-link></router-link>Top Deals
+          <b-nav-item class="sideStripe">Top Deals
           </b-nav-item>
-          <b-nav-item id="sideStripe">
-            <router-link></router-link>About
+          <b-nav-item class="sideStripe">About
           </b-nav-item>
-          <b-nav-item id="sideStripe" disabled>
-            <router-link></router-link>Forum
+          <b-nav-item class="sideStripe" disabled>Forum
           </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
@@ -32,8 +28,8 @@
             <b-dropdown-item href="#">RU</b-dropdown-item>
             <b-dropdown-item href="#">FA</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item v-if="!loggedIn" onclick="loginFucntion" right>
-            <router-link></router-link>Login
+          <b-nav-item v-if="!loggedIn" right>
+            <a v-model="loginFunction">Login</a>
           </b-nav-item>
 
           <b-nav-item-dropdown v-else="" right>
@@ -55,7 +51,7 @@
         name: "menu",
         data() {
           return {
-            loggedIn: fasle,
+            loggedIn: false,
             users: 'User 2147345',
             items: [
               {
@@ -114,7 +110,7 @@
     border-radius: 80%;
   }
   @media screen and (min-width: 1000px){
-    #sideStripe{
+    .sideStripe{
       border-left: medium solid white;
     }
   }
