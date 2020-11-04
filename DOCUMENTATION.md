@@ -22,13 +22,13 @@
 
 > (Welche Wünsche und Bedürfnisse der Personas müssen auf der Website erfüllt werden?) Die Website soll unsere User Anleiten die gezeigten Produkte einzusetzen, genauso wie über deise informieren.
 
-## Webpage
+## Webpage Frontend
  - [x] Navbar (Leonardo)
    - Sprachwecheleinbindung
    - Login Interface
    - Breadcrumb
  - [ ] Login/Register (Raef)
- - [ ] Datenbank anbindung (Christian)
+ - [ ] Datenbank anbindung
  - [ ] Sideupdates (Leonardo)
  - [ ] Main Content Design
  - [x] Socials (Leonardo)
@@ -39,3 +39,5 @@
  - Ich habe mich für eine WordPress Website entschieden da dabei vieles erleichtert wird, solche dinge wie die Datenbank anbindung oder Bots sind bei WordPress super einfach.
  - http://chris-bti.ddns.net/ (Hier ist die WordPress Website verlinkt).
  - Die Website wurde von Bots mit Daten über PC Hardware gefüllt, ein weiteres Feature was durch WordPress ermöglicht wurde. (Wir überlegen ob wir die Daten der WordPress seite auf die andere Website übernehmen)
+
+## Webpage Backend
