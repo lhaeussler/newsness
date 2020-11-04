@@ -27,7 +27,7 @@ $ sudo npm install -g vue-cli
 # Creating a Vue Project (Ab hier wir ein Projekt erstellt)
 $ vue init webpack (beispielname)
 
-# naviagte to the Project Folder
+# naviagte to the Project Folder (If you clone the githup repository you can start here)
 $ cd (beispielname)
 
 # install dependencies
