@@ -16,13 +16,11 @@
 
 > (Welche Probleme, Sorgen und Nöte beschäftigen Ihre Persona?) > Für ein eher wenig Technikversiertes Publikum liegen Probleme häufig bei fehlendem wissen zu verwendung der Hardware oder Funktionen derer. Für etwas Fortgeschritterene User stellt sich dann doch meißt eher dioe Frage wei man bestimmte Hardware kopmonenten bestmöglich optimiert im bezug auf übertaktung zum Beispiel.
 
-> (Wer/Was beeinflusst Ihre Persona in ihren Entscheidungen (beruflich und privat)?)
+> (Wer/Was beeinflusst Ihre Persona in ihren Entscheidungen (beruflich und privat)?) Häufig wird der Kauf einer Computer Hardwarearktikel durch den Preis entschieden, da komponenten mit höherer Leistung oftmals auch erheblcih mehr kosten als welche im mittleren Prei und Leistungsspektrum.
 
-> (Wie erwecke ich online die Aufmerksamkeit der potentiellen User?)
+> (Wie erwecke ich online die Aufmerksamkeit der potentiellen User?) Wir zielen darauf die Aufmerksamkeit unserer Nutzer durch das schreiben von kurzen aber dennoch informativen Artikeln zu erlangen.
 
-> (Welche Wünsche und Bedürfnisse der Personas müssen auf der Website erfüllt werden?)
-
-> (Welche unternehmerischen Ziele sollen mit der Website erreicht werden?)
+> (Welche Wünsche und Bedürfnisse der Personas müssen auf der Website erfüllt werden?) Die Website soll unsere User Anleiten die gezeigten Produkte einzusetzen, genauso wie über deise informieren.
 
 ## Webpage
  - [x] Navbar (Leonardo)
