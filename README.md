@@ -1,6 +1,8 @@
 # Newsness - Hardware News
 
 > A News Site by C.Hohn, R.Abdulbari, P.Auffermann, L.Haeussler
+
+> Documentation [here](https://github.com/lhaeussler/newsness/edit/master/DOCUMENTATION.md)
 ## Linux Runtime Installation
 ``` bash
 # Dowload Ubuntu Windows Runtime here:
