@@ -16,7 +16,13 @@
 
 > (Welche Probleme, Sorgen und Nöte beschäftigen Ihre Persona?) Für ein eher wenig Technikversiertes Publikum liegen Probleme häufig bei fehlendem wissen zu verwendung der Hardware oder Funktionen derer. Für etwas Fortgeschritterene User stellt sich dann doch meißt eher dioe Frage wei man bestimmte Hardware kopmonenten bestmöglich optimiert im bezug auf übertaktung zum Beispiel.
 
-> (Wer beeinflusst Ihre Persona in ihren Entscheidungen (beruflich und privat)?)
+> (Wer/Was beeinflusst Ihre Persona in ihren Entscheidungen (beruflich und privat)?)
+
+>> (Wie erwecke ich online die Aufmerksamkeit der potentiellen User?)
+
+>> (Welche Wünsche und Bedürfnisse der Personas müssen auf der Website erfüllt werden?)
+
+>> (Welche unternehmerischen Ziele sollen mit der Website erreicht werden?)
 
 ## Webpage
  - [x] Navbar (Leonardo)
