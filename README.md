@@ -10,7 +10,7 @@ https://www.microsoft.com/de-de/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:o
 https://docs.microsoft.com/de-de/windows/wsl/install-win10
 
 # After installation Navigate with cd ../../mnt zu den Windows Festplatten. 
-Mit dem Befehl ls können alle verfügbaren speicherorte abgerufen werden.
+Mit dem Befehl ls können alle sich in dem aktuell befindlichen Verzeichnis Ordner/Dateien abgerufen werden
 ```
 
 
@@ -27,7 +27,7 @@ $ sudo npm install -g vue-cli
 # Creating a Vue Project (Ab hier wir ein Projekt erstellt)
 $ vue init webpack (beispielname)
 
-# naviagte to the Project Folder
+# naviagte to the Project Folder (If you clone the githup repository you can start here)
 $ cd (beispielname)
 
 # install dependencies
