@@ -4,7 +4,7 @@
 
 - [ ] Schreiben der Blogartikel / Oder übernehmen von der WordPress seite (Paul)
 - [x] Erstellung eines Nutzerprofils (Zeilgruppenbestimmung)
-- [x] Persona (Leonardo)
+- [x] Persona (Leonardo/Christian)
 - [x] Wireframes (Leonardo)
 - [ ] Sitemap
 - [X] Datenbankprofil (Leonardo)
