@@ -4,10 +4,10 @@
 
 - [ ] Schreiben der Blogartikel / Oder übernehmen von der WordPress seite (Paul)
 - [x] Erstellung eines Nutzerprofils (Zeilgruppenbestimmung)
-- [x] Persona
-- [x] Wireframes 
+- [x] Persona (Leonardo)
+- [x] Wireframes (Leonardo)
 - [ ] Sitemap
-- [ ] Datenbankprofil
+- [X] Datenbankprofil (Leonardo)
 
 #### Zielgruppen Bestimmung / Persona
 > (Wie heißt Ihre Persona und wie alt ist sie?) > Eine genaue Altersgruppe lässt sich für unsere Website leider nicht finden. Da wir der Meinung sind, dass Technik interessierte sich in allen Altersgruppen für die gestellten Themen intressieren können.
