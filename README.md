@@ -3,7 +3,7 @@
 > A News Site by C.Hohn, R.Abdulbari, P.Auffermann, L.Haeussler
     - Documentation [here](https://github.com/lhaeussler/newsness/blob/master/DOCUMENTATION.md)
 ## Linux Runtime Installation
-``` bash
+``` css
 # Dowload Ubuntu Windows Runtime here:
 https://www.microsoft.com/de-de/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab
 
@@ -17,7 +17,7 @@ Mit dem Befehl ls können alle sich in dem aktuell befindlichen Verzeichnis Ordn
 
 ## Build Setup (- Use on a webserver)
 
-``` bash
+```css
 #install npm
 $ sudo apt update
 $ sudo apt install npm
@@ -41,7 +41,7 @@ You can now access the Baisc webpage on localhost:8080 in your Webrowser
 ```
 ## Installing Bootstrap 
 
-```bash
+```css
 # navigate to your Project folder ($ cd {beispielname})
 
 # installing Bootstrap
