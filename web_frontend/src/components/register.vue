@@ -37,7 +37,7 @@
         <label for="example-input">Choose a date</label>
     <b-input-group class="mb-3">
       <b-form-input
-        id="example-input"
+        id="input-4"
         v-model="value"
         type="date"
         autocomplete="off"
@@ -53,22 +53,23 @@
         ></b-form-datepicker>
       </b-input-group-append>
     </b-input-group>
-  <b-form-group id="input-vorname" label="Vorname:" label-for="input-2">
+  <b-form-group id="input-vorname" label="password:" label-for="input-2">
         <b-form-input
-          id="input-2"
-          v-model="form.vorname"
+          id="input-5"
+          v-model="password"
+          type="password"
           required
-          placeholder="Müster"
+          placeholder="password"
         ></b-form-input>
       </b-form-group>
       
-      <b-form-group id="input-Surname" label="Nachname:" label-for="input-3">
+      <b-form-group id="input-Surname" label="bestätigen :" label-for="input-3">
         <b-form-input
-          id="input-3"
-          v-model="form.nachname"
+          id="input-6"
+          v-model="bestätigenPassword"
           type="password"
           required
-          placeholder="Man"
+          
         ></b-form-input>
       </b-form-group>
 
@@ -91,7 +92,10 @@
           nachname:'',
           selected: '',
           value:'',
-          formatted: ''
+          formatted: '',
+          password:'',
+          bestätigenPassword:''
+
 
         
         },
