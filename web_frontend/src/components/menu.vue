@@ -28,9 +28,13 @@
             <b-dropdown-item href="#">RU</b-dropdown-item>
             <b-dropdown-item href="#">FA</b-dropdown-item>
           </b-nav-item-dropdown>
-          <b-nav-item v-if="!loggedIn" right>
-            <a v-model="loginFunction">Login</a>
-          </b-nav-item>
+          <b-nav-item-dropdown v-if="!loggedIn" right>
+            <template v-slot:button-content>
+              <em>Login</em>
+            </template>
+            <b-dropdown-item href="#" @click="loginFunction">Sign In</b-dropdown-item>
+            <b-dropdown-item href="#">Sign Up</b-dropdown-item>
+          </b-nav-item-dropdown>
 
           <b-nav-item-dropdown v-else="" right>
             <template v-slot:button-content>
@@ -38,7 +42,6 @@
             </template>
             <b-dropdown-item href="#">Profile</b-dropdown-item>
             <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-            <b-dropdown-item href="register.vue">register</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
