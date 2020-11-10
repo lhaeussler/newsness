@@ -4,8 +4,8 @@
       <menu></menu>
         <socials id="socials"></socials>
       <footer></footer>
-      <register></register>
       <router-view></router-view>
+      <register></register>
     </div>
   </b-skeleton-wrapper>
 </template>
@@ -40,6 +40,9 @@ menu{
   top: 0;
 }
 #socials {
+  position: absolute;
+}
+register{
   position: absolute;
 }
 
