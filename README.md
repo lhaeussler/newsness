@@ -1,8 +1,9 @@
 # Newsness - Hardware News
 
 > A News Site by C.Hohn, R.Abdulbari, P.Auffermann, L.Haeussler
+    - Documentation [here](https://github.com/lhaeussler/newsness/blob/master/DOCUMENTATION.md)
 ## Linux Runtime Installation
-``` bash
+``` css
 # Dowload Ubuntu Windows Runtime here:
 https://www.microsoft.com/de-de/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:overviewtab
 
@@ -10,13 +11,13 @@ https://www.microsoft.com/de-de/p/ubuntu-2004-lts/9n6svws3rx71?activetab=pivot:o
 https://docs.microsoft.com/de-de/windows/wsl/install-win10
 
 # After installation Navigate with cd ../../mnt zu den Windows Festplatten. 
-Mit dem Befehl ls können alle verfügbaren speicherorte abgerufen werden.
+Mit dem Befehl ls können alle sich in dem aktuell befindlichen Verzeichnis Ordner/Dateien abgerufen werden
 ```
 
 
 ## Build Setup (- Use on a webserver)
 
-``` bash
+```css
 #install npm
 $ sudo apt update
 $ sudo apt install npm
@@ -27,7 +28,7 @@ $ sudo npm install -g vue-cli
 # Creating a Vue Project (Ab hier wir ein Projekt erstellt)
 $ vue init webpack (beispielname)
 
-# naviagte to the Project Folder
+# naviagte to the Project Folder (If you clone the githup repository you can start here)
 $ cd (beispielname)
 
 # install dependencies
@@ -40,7 +41,7 @@ You can now access the Baisc webpage on localhost:8080 in your Webrowser
 ```
 ## Installing Bootstrap 
 
-```bash
+```css
 # navigate to your Project folder ($ cd {beispielname})
 
 # installing Bootstrap

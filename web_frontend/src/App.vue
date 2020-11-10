@@ -4,6 +4,7 @@
       <menu></menu>
         <socials id="socials"></socials>
       <footer></footer>
+      <register></register>
       <router-view></router-view>
     </div>
   </b-skeleton-wrapper>
@@ -13,13 +14,15 @@
 import Menu from "./components/menu";
 import Socials from  "./components/socials";
 import Footer from "./components/footer";
+import Register from "./components/register";
 
 export default {
   name: 'App',
   components: {
     Menu,
     Socials,
-    Footer
+    Footer,
+    Register
   }
 }
 </script>
@@ -39,4 +42,5 @@ menu{
 #socials {
   position: absolute;
 }
+
 </style>
