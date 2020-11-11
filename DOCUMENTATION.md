@@ -3,10 +3,11 @@
 > Es wurde um eine bestmögliche User expierience zu leifern an zwei möglichen Lösungen der Webpage gearbeitet. Zum einen an einer Lösung mit Wordpress, was eine leichtere Wartung ermöglicht zum anderem an einer Lösung mit dem Javascript vue.js Framework mit unterstützung dem passenden bootstrap Framework, dies ermöglicht bessere Anpassung des UI's
 
 - [ ] Schreiben der Blogartikel / Oder übernehmen von der WordPress seite (Paul)
+  - About me Texte
 - [x] Erstellung eines Nutzerprofils (Zeilgruppenbestimmung)
 - [x] Persona (Leonardo/Christian)
 - [x] Wireframes (Leonardo)
-- [ ] Sitemap
+- [ ] Sitemap (Paul
 - [X] Datenbankprofil (Leonardo)
 
 #### Zielgruppen Bestimmung / Persona
@@ -27,13 +28,13 @@
    - Sprachwechseleinbindung
    - Login Interface
    - Breadcrumb
- - [ ] Login/Register (Raef)
- - [ ] Datenbank anbindung
+ - [x] Login/Register (Raef)
+ - [x] Datenbank anbindung (Chris)
  - [ ] Sideupdates (Leonardo)
- - [ ] Main Content Design
+ - [x] Main Content Design (Chris)
  - [x] Socials (Leonardo)
    - Social media progress Page
- - [ ] Footer
+ - [x] Footer (Chris)
  
 ## Wordpress Webpage (Christian)
  - Ich habe mich für eine WordPress Website entschieden da dabei vieles erleichtert wird, solche dinge wie die Datenbank anbindung oder Bots sind bei WordPress super einfach.
