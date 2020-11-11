@@ -1,49 +1,41 @@
 <template>
-  <b-skeleton-wrapper :loading="loading">
     <div id="app">
       <menu></menu>
+        <register></register>
         <socials id="socials"></socials>
       <footer></footer>
-      <router-view></router-view>
-      <register></register>
     </div>
-  </b-skeleton-wrapper>
 </template>
 
 <script>
-import Menu from "./components/menu";
 import Socials from  "./components/socials";
-import Footer from "./components/footer";
+import Menu from "./components/menu";
 import Register from "./components/register";
+import Footer from "./components/footerMenu";
 
 export default {
   name: 'App',
   components: {
-    Menu,
-    Socials,
     Footer,
-    Register
+    Register,
+    Menu,
+    Socials
   }
 }
 </script>
 
 <style>
 #app {
+  top: 0;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-menu{
-  position: sticky;
-  top: 0;
-}
 #socials {
   position: absolute;
 }
-register{
-  position: absolute;
-}
+
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="menuHeader">
+  <div id="menu">
     <b-navbar toggleable="lg" type="dark" variant="primary">
       <b-navbar-brand href="#">
         <img id="logoImage" src="../assets/img/zeitung-clipart.png">
@@ -99,7 +99,7 @@
 </script>
 
 <style>
-  #menuHeader{
+  #menu{
     background-image: url(../assets/img/motherboard-232515.jpg), linear-gradient(230deg, #ffffff, rgb(46, 119, 254));
     background-attachment: fixed;
     background-blend-mode: luminosity;
@@ -108,6 +108,7 @@
     background-size: cover;
     height: 30vh;
     padding-top: 5vh;
+    z-index: 2;
   }
   #logoImage{
     height: 3vw;
