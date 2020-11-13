@@ -26,8 +26,8 @@
 
 <style>
     #socials{
-        margin-top: 50vh;
-        margin-left: -150px;
+        margin-top: 18em;
+        margin-left: -155px;
     }
         #socials a{
             padding: 20%;

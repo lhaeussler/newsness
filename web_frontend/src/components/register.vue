@@ -1,28 +1,35 @@
 <template>
   <div id="register">
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-form-group id="input-group-1" label="Email" label-align-sm="left">
-        <b-form-input id="input-email" v-model="form.email" type="email" required placeholder="max@mustermann.com"></b-form-input>
+    <b-overlay :show="show" rounded="sm">
+      <b-form @submit="onSubmit" @reset="onReset">
+        <b-form-group id="input-group-1" label="Email" label-align-sm="left">
+          <b-form-input id="input-email" v-model="form.email" type="email" required placeholder="max@mustermann.com"></b-form-input>
+        </b-form-group>
+        <b-form-group label="Vorname" label-align-sm="left">
+          <b-form-input id="input-2" v-model="form.vorname" required placeholder="Max"></b-form-input>
+        </b-form-group>
+        <b-form-group id="input-2" label="Nachname" label-align-sm="left">
+          <b-form-input id="input-3" v-model="form.nachname" required placeholder="Mustermann"></b-form-input>
+        </b-form-group>
+        <label>Birthdate</label>
+      <b-input-group class="mb-3">
+        <b-form-input id="example-input" label="Birthdate" v-model="value" type="date" autocomplete="off"></b-form-input>
+      </b-input-group>
+      <b-form-group id="input-2" label="Password" label-align-sm="left">
+        <b-form-input id="text-password" type="password" aria-describedby="password-help-block" v-model="form.password" required></b-form-input>
+        <b-form-text id="password-help-block">Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.</b-form-text>
       </b-form-group>
-      <b-form-group label="Vorname" label-align-sm="left">
-        <b-form-input id="input-2" v-model="form.vorname" required placeholder="Max"></b-form-input>
+      <b-form-group id="input-3" label="Repeat Password" label-align-sm="left">
+        <b-form-input id="input-3" v-model="form.passwordRepeat" type="password" required></b-form-input>
       </b-form-group>
-      <b-form-group id="input-2" label="Nachname" label-align-sm="left">
-        <b-form-input id="input-3" v-model="form.nachname" required placeholder="Mustermann"></b-form-input>
+      <b-form-group>
+        <b-form-radio>I agree the <span class="link" href="#">Terms of Service</span></b-form-radio>
+        <b-form-radio>Yes, I want to sign up for the Newsness Newsletter</b-form-radio>
       </b-form-group>
-      <label>Birthdate</label>
-    <b-input-group class="mb-3">
-      <b-form-input id="example-input" label="Birthdate" v-model="value" type="date" autocomplete="off"></b-form-input>
-    </b-input-group>
-    <b-form-group id="input-2" label="Password" label-align-sm="left">
-      <b-form-input id="text-password" aria-describedby="password-help-block" v-model="form.password" required></b-form-input>
-      <b-form-text id="password-help-block">Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.</b-form-text>
-    </b-form-group>
-    <b-form-group id="input-3" label="Repeat Password" label-align-sm="left">
-      <b-form-input id="input-3" v-model="form.passwordRepeat" type="password" required></b-form-input>
-    </b-form-group>
-      <b-button type="submit" variant="primary" size="lg">Register</b-button>
-    </b-form>
+        <b-form-text id="help-Block">If you already have an account you can sign in <span class="link">here</span></b-form-text>
+        <b-button class="marginTop" type="submit" variant="primary" size="lg">Register</b-button>
+      </b-form>
+    </b-overlay>
   </div>
 </template>
 
@@ -39,9 +46,9 @@
           password: '',
           passwordRepeat: '',
           value:'',
-          formatted: ''
+          formatted: '',
+          show: false
         },
-        show: true
       }
     },
     methods: {
@@ -85,8 +92,8 @@ form
   position: absolute;
   width: 50%;
   left: 6em;
-  top: 20em;
-  height: 70%;
+  margin-top: 2em;
+  margin-bottom: 10em;
   padding: 4%;
   -webkit-box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.75);
@@ -100,6 +107,16 @@ form
     right: 1em;
     z-index: 1;
   }
+}
+.link{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link:hover{
+  color: cornflowerblue;
+}
+.marginTop{
+  margin-top: 1em;
 }
 </style>
 

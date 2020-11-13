@@ -1,24 +1,26 @@
 <template>
     <div id="app">
-      <menu></menu>
-        <register></register>
-        <socials id="socials"></socials>
-      <footer></footer>
+      <navbar id="navMenu"></navbar>
+        <div id="mainContentChange">
+          <register></register>
+          <socials id="socials"></socials>
+        </div>
+      <footerMenu></footerMenu>
     </div>
 </template>
 
 <script>
 import Socials from  "./components/socials";
-import Menu from "./components/menu";
+import navbar from "./components/navbar";
 import Register from "./components/register";
-import Footer from "./components/footerMenu";
+import footerMenu from "./components/footerMenu";
 
 export default {
   name: 'App',
   components: {
-    Footer,
+    footerMenu,
     Register,
-    Menu,
+    navbar,
     Socials
   }
 }
@@ -30,12 +32,9 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 #socials {
   position: absolute;
 }
-
-
 </style>
