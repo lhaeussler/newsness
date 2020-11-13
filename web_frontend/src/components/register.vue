@@ -1,14 +1,15 @@
 <template>
   <div id="register">
     <b-overlay :show="show" rounded="sm">
+      <h1 class="centered">Sign Up</h1>
       <b-form @submit="onSubmit" @reset="onReset">
         <b-form-group id="input-group-1" label="Email" label-align-sm="left">
           <b-form-input id="input-email" v-model="form.email" type="email" required placeholder="max@mustermann.com"></b-form-input>
         </b-form-group>
-        <b-form-group label="Vorname" label-align-sm="left">
+        <b-form-group label="Name" label-align-sm="left">
           <b-form-input id="input-2" v-model="form.vorname" required placeholder="Max"></b-form-input>
         </b-form-group>
-        <b-form-group id="input-2" label="Nachname" label-align-sm="left">
+        <b-form-group id="input-2" label="Surname" label-align-sm="left">
           <b-form-input id="input-3" v-model="form.nachname" required placeholder="Mustermann"></b-form-input>
         </b-form-group>
         <label>Birthdate</label>
@@ -100,6 +101,10 @@ form
   box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.75);
   border-bottom: 5px solid rgb(46, 119, 254);
 }
+#register .form-control{
+  border: none;
+  border-bottom: 2px solid rgb(46, 119, 254);
+}
 @media screen and (max-width: 1000px){
   #register{
     width: 90%;
@@ -117,6 +122,11 @@ form
 }
 .marginTop{
   margin-top: 1em;
+}
+.centered{
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
 }
 </style>
 

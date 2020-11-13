@@ -27,9 +27,10 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&family=Monofett&display=swap');
 #app {
-  top: 0;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'El Messiri', sans-serif;
+  font-size: large;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;

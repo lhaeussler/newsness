@@ -1,6 +1,6 @@
 <template>
   <div id="footerMain">
-    <b-jumbotron header="BootstrapVue" lead="Bootstrap v4 Components for Vue.js 2">
+    <b-jumbotron header="BootstrapVue" lead="Proudly presented by Wald und Wiesen SQL">
       <p>For more information visit website</p>
       <b-button variant="primary" href="#">More Info</b-button>
     </b-jumbotron>
@@ -16,7 +16,7 @@
 <style>
 #footerMain{
   position: absolute;
-  margin-top: 85em;
+  top: 100em;
   width: 100%;
   height: 5em;
   border-bottom: 5px solid rgb(46, 119, 254);
