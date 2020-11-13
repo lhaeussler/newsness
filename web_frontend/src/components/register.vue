@@ -26,10 +26,30 @@
         <b-form-radio>I agree the <span class="link" href="#">Terms of Service</span></b-form-radio>
         <b-form-radio>Yes, I want to sign up for the Newsness Newsletter</b-form-radio>
       </b-form-group>
+<<<<<<< Updated upstream
         <b-form-text id="help-Block">If you already have an account you can sign in <span class="link">here</span></b-form-text>
         <b-button class="marginTop" type="submit" variant="primary" size="lg">Register</b-button>
       </b-form>
     </b-overlay>
+=======
+    <label>Geburtsdatum</label>
+    <b-input-group class="mb-3">
+      <b-form-input id="input-4" label="Geburtsdatum" v-model="value" type="date" autocomplete="off"></b-form-input>
+    </b-input-group>
+    <b-form-group id="input-password" label="Password" label-for="input-2">
+    <b-form-input id="input-5" v-model="form.password" type="password" required>
+    <b-form-text id="password-help-block">
+      Your password must be 8-20 characters long, contain letters and numbers, and must not
+      contain spaces, special characters, or emoji.
+      </b-form-text>
+      </b-form-input>
+      </b-form-group>
+      <b-form-group id="input-Surname" label="Repeat Password" label-for="input-3">
+        <b-form-input id="input-6" v-model="form.repeatpassword" type="password" required></b-form-input>
+      </b-form-group>
+      <b-button type="submit" variant="primary" size="lg">Register</b-button>
+    </b-form>
+>>>>>>> Stashed changes
   </div>
 </template>
 
