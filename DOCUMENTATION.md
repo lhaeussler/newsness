@@ -30,7 +30,7 @@
    - Breadcrumb
  - [x] Login/Register (Raef)
  - [x] Datenbank anbindung (Chris)
- - [ ] Sideupdates (Leonardo)
+ - [x] Sideupdates (Leonardo)
  - [x] Main Content Design (Chris)
  - [x] Socials (Leonardo)
    - Social media progress Page
